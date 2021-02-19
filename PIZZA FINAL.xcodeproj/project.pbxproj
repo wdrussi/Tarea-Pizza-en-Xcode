@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52181A625DED38700562564 /* iOS_15_1 in Resources */ = {isa = PBXBuildFile; fileRef = A52181A425DED38700562564 /* iOS_15_1 */; };
+		A52181A725DED38700562564 /* iOS_15_1 Extension in Resources */ = {isa = PBXBuildFile; fileRef = A52181A525DED38700562564 /* iOS_15_1 Extension */; };
 		A54C56F825DBFF1E00D0F35E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C56F725DBFF1E00D0F35E /* AppDelegate.swift */; };
-		A54C56FA25DBFF1E00D0F35E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C56F925DBFF1E00D0F35E /* ViewController.swift */; };
+		A54C56FA25DBFF1E00D0F35E /* TamañoPizzaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54C56F925DBFF1E00D0F35E /* TamañoPizzaController.swift */; };
 		A54C56FD25DBFF1E00D0F35E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54C56FB25DBFF1E00D0F35E /* Main.storyboard */; };
 		A54C56FF25DBFF1E00D0F35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54C56FE25DBFF1E00D0F35E /* Assets.xcassets */; };
 		A54C570225DBFF1E00D0F35E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54C570025DBFF1E00D0F35E /* LaunchScreen.storyboard */; };
+		A5C504BD25DD5DD000842377 /* TipoDeMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C504BC25DD5DD000842377 /* TipoDeMasa.swift */; };
+		A5C504BF25DD60DA00842377 /* ClaseDeQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C504BE25DD60DA00842377 /* ClaseDeQueso.swift */; };
+		A5C504C125DD617000842377 /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C504C025DD617000842377 /* Ingredientes.swift */; };
+		A5C504C325DD61BA00842377 /* ConfirmacionDePedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C504C225DD61BA00842377 /* ConfirmacionDePedido.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A52181A425DED38700562564 /* iOS_15_1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iOS_15_1; path = "../../../Downloads/Interfaz-de-usuario-en-iOS_Semana-2-y-4_App-para-crear-una-pizza-desde-iPhone-y-Apple-Watch-master/iOS_15_1"; sourceTree = "<group>"; };
+		A52181A525DED38700562564 /* iOS_15_1 Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "iOS_15_1 Extension"; path = "../../../Downloads/Interfaz-de-usuario-en-iOS_Semana-2-y-4_App-para-crear-una-pizza-desde-iPhone-y-Apple-Watch-master/iOS_15_1 Extension"; sourceTree = "<group>"; };
 		A54C56F425DBFF1E00D0F35E /* PIZZA FINAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PIZZA FINAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54C56F725DBFF1E00D0F35E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A54C56F925DBFF1E00D0F35E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A54C56F925DBFF1E00D0F35E /* TamañoPizzaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TamañoPizzaController.swift"; sourceTree = "<group>"; };
 		A54C56FC25DBFF1E00D0F35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A54C56FE25DBFF1E00D0F35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A54C570125DBFF1E00D0F35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A54C570325DBFF1E00D0F35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C504BC25DD5DD000842377 /* TipoDeMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TipoDeMasa.swift; path = ../TipoDeMasa.swift; sourceTree = "<group>"; };
+		A5C504BE25DD60DA00842377 /* ClaseDeQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClaseDeQueso.swift; sourceTree = "<group>"; };
+		A5C504C025DD617000842377 /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ingredientes.swift; path = ../Ingredientes.swift; sourceTree = "<group>"; };
+		A5C504C225DD61BA00842377 /* ConfirmacionDePedido.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionDePedido.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,8 @@
 		A54C56EB25DBFF1E00D0F35E = {
 			isa = PBXGroup;
 			children = (
+				A52181A425DED38700562564 /* iOS_15_1 */,
+				A52181A525DED38700562564 /* iOS_15_1 Extension */,
 				A54C56F625DBFF1E00D0F35E /* PIZZA FINAL */,
 				A54C56F525DBFF1E00D0F35E /* Products */,
 			);
@@ -55,7 +69,11 @@
 			isa = PBXGroup;
 			children = (
 				A54C56F725DBFF1E00D0F35E /* AppDelegate.swift */,
-				A54C56F925DBFF1E00D0F35E /* ViewController.swift */,
+				A54C56F925DBFF1E00D0F35E /* TamañoPizzaController.swift */,
+				A5C504BC25DD5DD000842377 /* TipoDeMasa.swift */,
+				A5C504BE25DD60DA00842377 /* ClaseDeQueso.swift */,
+				A5C504C025DD617000842377 /* Ingredientes.swift */,
+				A5C504C225DD61BA00842377 /* ConfirmacionDePedido.swift */,
 				A54C56FB25DBFF1E00D0F35E /* Main.storyboard */,
 				A54C56FE25DBFF1E00D0F35E /* Assets.xcassets */,
 				A54C570025DBFF1E00D0F35E /* LaunchScreen.storyboard */,
@@ -123,6 +141,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52181A725DED38700562564 /* iOS_15_1 Extension in Resources */,
+				A52181A625DED38700562564 /* iOS_15_1 in Resources */,
 				A54C570225DBFF1E00D0F35E /* LaunchScreen.storyboard in Resources */,
 				A54C56FF25DBFF1E00D0F35E /* Assets.xcassets in Resources */,
 				A54C56FD25DBFF1E00D0F35E /* Main.storyboard in Resources */,
@@ -136,8 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A54C56FA25DBFF1E00D0F35E /* ViewController.swift in Sources */,
+				A5C504BD25DD5DD000842377 /* TipoDeMasa.swift in Sources */,
+				A54C56FA25DBFF1E00D0F35E /* TamañoPizzaController.swift in Sources */,
+				A5C504C125DD617000842377 /* Ingredientes.swift in Sources */,
 				A54C56F825DBFF1E00D0F35E /* AppDelegate.swift in Sources */,
+				A5C504BF25DD60DA00842377 /* ClaseDeQueso.swift in Sources */,
+				A5C504C325DD61BA00842377 /* ConfirmacionDePedido.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +323,7 @@
 				A54C570825DBFF1E00D0F35E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
